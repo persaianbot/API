@@ -9,44 +9,47 @@ local bot_api_key = "188657706:AAGluIz5nSxvis6gfZ-ohU6zBhAoH9mShOY"
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
-hi :)
+*hi :)*😑
+*I m TekBotTeam Bot ;)*📳
 
-/hyper [`test`]
-- `test`
+*My Commands*💯
 
-/hyper [*test*]
-- *test*
+/hyper [`test`]➿
+- `test`➿
 
-/hyper [_test_]
-- _test_
+/hyper [*test*]💮
+- *test*💮
 
-/hyper [[text](url)](url)
-- [TekTeamBot](Telegram?me/TekTeamBot)
+/hyper [_test_]📵
+- _test_📵
 
-*EXAMPLE*
+/hyper [[text](url)](url)🔱
+- [TekTeamBot](Telegram?me/TekTeamBot)🔱
 
-/hyper [`Hi`]
-[*I'm a api bot* ]
-[_BeatBot Team created me_]
-[[TekBot Channel](test)][(http://telegram.me/TekBot_Team)]
+*For Example*💯
 
-*RESULT*
+/hyper [`Hi`]♎
+[*I'm a api bot* ]♎
+[_TekBotTeam Team created me_]♎
+[[TekBot Channel](test)][(http://telegram.me/TekBot_Team)]♎
 
-`Hi`
-*I'm a api bot* 
-_TekBot  Team created me_
-[TekBot Channel](http://telegram.me/TekBot_team)
+*RESULT*💯
 
-*OTHER*
+`Hi`♊
+*I'm a api bot* ♊
+_TekBot  Team created me_♊
+[TekBot Channel](http://telegram.me/TekBot_team)♊
 
-*sticker to photo*
-`just send a sticker`
+*OTHER*⏰
 
-*photo to sticker*
-`just send a photo`
+*sticker to photo*🔱
+`just send a sticker`🔱
 
-*webshot*
-`/webshot url`
+*photo to sticker*⌚
+`just send a photo`⌚
+
+*webshot*❕
+`/webshot url` ❕
 
 _TNX TO USE ME :)_
 ]] 
@@ -263,7 +266,7 @@ function msg_processor(msg)
 
 elseif msg.text:match("^/[sS]tart") or msg.text:match("^/[Hh]elp") then
  sendMessage(msg.chat.id, start, true, false, true)
-  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید :)](http://telegram.me/beatbot_team)]], true, false, true)
+  sendMessage(msg.chat.id, [[[ربات خودتونو بسازید :)](http://telegram.me/TekBot_team)]], true, false, true)
 return end
 
 end
