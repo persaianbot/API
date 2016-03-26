@@ -1,4 +1,4 @@
-# Api-Telegram-bot
+#Tek-Api-Telegram-bot
 
 A simple telegram-bot wtitten in LUA based on [file manager bot](https://github.com/Imandaneshi/file-manager-bot) & [lua-api-bot](https://github.com/pAyDaAr/lua-api-bot)
 
@@ -18,7 +18,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 Clone the bot
 
 ```
-git clone https://github.com/BeatBotTeam/Api-Telegram-Bot.git
+git clone https://github.com/arian-soft/tek-api-bot
 cd Api-Telegram-Bot
 
 ```
